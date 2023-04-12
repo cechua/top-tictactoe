@@ -1,0 +1,14 @@
+#gameBoard { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 250px;
+}
+
+.box {
+    border:1px solid #000000;
+    height:35px;
+    min-width: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
